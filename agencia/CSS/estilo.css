@@ -21,7 +21,7 @@ body{
     flex:20%;
     margin-left:10%;
 /*border: 1px solid black; borda para ser removida*/
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -45,7 +45,7 @@ body{
 }
 
 .menu a:hover{
-    color: #FF2978;
+    color: #00e2c2;
     border-top: 4px solid #180F4A;
 }
 
@@ -60,5 +60,58 @@ body{
 
 #botao:hover{
     border: none;
-    background: #FF2978;
+    background: #00e2c2;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+
+.img-headline{
+    margin-right: 10px;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.img-headline img{
+    max-width: 90%;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #180F4A;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #00e2c2;
 }
