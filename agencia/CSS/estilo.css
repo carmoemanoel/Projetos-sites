@@ -26,7 +26,7 @@ body{
 
 .logo h1{
     font-family: 'Lobster', cursive;
-    color: #180F4A;
+    color: #385a64;
     font-size: 34px;
 }
 
@@ -38,7 +38,7 @@ body{
 }
 
 .menu a{
-    color: #180F4A;
+    color: #385a64;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
@@ -46,11 +46,11 @@ body{
 
 .menu a:hover{
     color: #00e2c2;
-    border-top: 4px solid #180F4A;
+    border-top: 4px solid #385a64;
 }
 
 #botao{
-    background: #180F4A;
+    background: #385a64;
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
@@ -80,7 +80,7 @@ body{
 .headline h2{
     font-weight: 900;
     font-size: 20px;
-    color: #180F4A;
+    color: #385a64;
     padding: 0;
     margin: 0;
 }
@@ -104,7 +104,7 @@ body{
 
 .contact-btn{
     display: inline-block;
-    background: #180F4A;
+    background: #385a64;
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -132,7 +132,7 @@ section h2{
     margin: 0;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    color: #180F4A;
+    color: #385a64;
 }
 
 .servico{
